@@ -1,0 +1,2459 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nfdi4pso.owl#"
+     xml:base="http://purl.obolibrary.org/obo/nfdi4pso.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nfdi4pso.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nfdi4pso/init/2020-12-01/nfdi4pso.owl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-9021-3197</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0003-1476-2121</dc:creator>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The DataPlant Ontology</dc:title>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:default-namespace>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muehlhaus</oboInOwl:saved-by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coverage: Missing Terms for the DataPLANT end-point repository templates</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creator: Dominik Brilhaus &lt;dominik.brilhaus&lt;-at-&gt;hhu.de&gt;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creator: Hajira Jabeen &lt;hajira.jabeen&lt;-at-&gt;uni-koeln.de&gt;</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000002"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000001">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plan specification that states how treatments are allocated to the experimental units during an agronomic trial. It refers to the conceptual framework within which the experiment is conducted</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/AGRO_00000343</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Randomisation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth plot design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000002">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The software used for read alignment i.e http://edamontology.org/operation_3198 or http://purl.obolibrary.org/obo/OBI_0002478</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“ We might need to add the relationship with the class referenced above”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read Alignment Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000003">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The version of the read alignment software (NFDI4PSO:0000002).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read Alignment Software Versio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000004">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The parameters of the read alignment software (NFDI4PSO:0000002).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000004</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read Alignment Software Parameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000005">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term defines the relative humidity of the air at daytime, it is a specialised concept of http://www.ontobee.org/ontology/PECO?iri=http://purl.obolibrary.org/obo/PECO_0007197”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humidity Day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000006">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term defines the relative humidity of the air at nighttime, it is a specialised concept of http://www.ontobee.org/ontology/PECO?iri=http://purl.obolibrary.org/obo/PECO_0007197”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000006</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humidity Night</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000007">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term defines the air temperature at daytime, it is a specialised concept of http://www.ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/ENVO_09200001”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000007</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature Day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000008">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term defines the air temperature at nighttime, it is a specialised concept of http://www.ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/ENVO_09200001”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000008</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature Night</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000009">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Details of method to gather (e.g. scissors, scalpel) or pool the sample, tissue, organ”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000009</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample Collection Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000010">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method used to stop the metabolism in the sample (e.g. shock-freeze in liquid nitrogen). May include the time passed since sample collection.”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000010</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism quenching method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000011">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The method used for sample storage. Should include the temperature of the sample. May include the medium (freezer or liquid nitrogen) and/or additional processing (freeze-drying) of the sample”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000011</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000012">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biological entity (e.g. RNA, DNA, metabolites, proteins, lipids) to be extracted from a biosource targeted for assay / measurement.”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000012</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000013">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount (typically in milligram) of material from which a bio entity (NFDI4PSO:0000012) is extracted.”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000013</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biosource amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000014">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of the commercial kit used for extraction of a bio entity (NFDI4PSO:0000012). Should include the company name.”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000014</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction Kit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000015">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determines the choice of DNA sequencing strategy, in which a single read is initiated from each end (paired-end) or one end (single-end) of DNA fragment”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000015</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Adapted from http://purl.obolibrary.org/obo/NCIT_C150423&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library layout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000016">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amount of RNA (typically microgram) used as starting material for library construction (http://purl.obolibrary.org/obo/GENEPIO_0001994)”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000016</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library RNA amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000017">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Base-calling Software used for base-calling process. i.e. http://edamontology.org/operation_3185 or http://purl.obolibrary.org/obo/OBI_0002468”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000017</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Base-calling Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000018">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The version of the Base-calling Software (NFDI4PSO:0000017).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000018</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Base-calling Software Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000019">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The parameters of the Base-calling Software (NFDI4PSO:0000017).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000019</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Base-calling Software Parameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000020">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determines the read direction. Only applies to nucleotide sequencing in paired-end layout (NFDI4PSO:0000015)”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000020</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library strand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000021">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File format of the raw data file”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000021</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“This is a specialization of https://ifb-elixirfr.github.io/edam-browser/#http://edamontology.org/format_1915&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw data file format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000022">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checksum of the raw data file, it is a specialised concept of http://purl.obolibrary.org/obo/NCIT_C43522” ! Checksum</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000022</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw data file checksum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000023">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the software applied for data filtering”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000023</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“For RNA-seq data, this may be a read adapter trimming software (GENEPIO_0002096)”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data filtering software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000024">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The version of the data filtering software (NFDI4PSO:0000023).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000024</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data filtering software version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000025">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The parameters of the data filtering software (NFDI4PSO:0000023).”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000025</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data filtering Software Parameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000026">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name and version of the genome reference.”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000026</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“See also http://purl.obolibrary.org/obo/NCIT_C164388 and http://purl.obolibrary.org/obo/MS_1002644”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome reference sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000027">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File format of the processed data file”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000027</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processed data file format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000028">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the processed data file”</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000028</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“”</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processed data file name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000029">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checksum of the processed data file, it is a specialised concept of http://purl.obolibrary.org/obo/NCIT_C43522” ! Checksum</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000029</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processed data file checksum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000030">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/OBI_0100026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000634</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000030</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000031">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000513</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000031</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000032">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of organism&apos;s anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000635</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000032</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000033">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temporal measurement of the time period elapsed since an identifiable point in the life cycle of an organism. If a developmental stage is specified, the identifiable point would be the beginning of that stage. Otherwise the identifiable point must be specified such as planting (e.g. 3 days post planting).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000033</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“This is a specialization of http://www.ebi.ac.uk/efo/EFO_0000246&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000034">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time point at which a sample or observation is made or taken from a biomaterial as measured from some reference point.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000724</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000034</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000035">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequencing technique intended for a next generation sequencing library.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/GENEPIO_0001973</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000035</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000036">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The method used to select for or against, enrich, or screen the material being sequenced.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/GENEPIO_0001940</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000036</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library Selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000037">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Packaged kits (containing adapters, indexes, enzymes, buffers etc), tailored for specific sequencing workflows, which allow the simplified preparation of sequencing-ready libraries for small genomes, amplicons, and plasmids.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/GENEPIO_0000085</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000037</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library preparation kit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000038">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The version identifier of a packaged kit tailored for specific sequencing workflows.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/GENEPIO_0000149</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000038</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library preparation kit version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000039">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapters provide priming sequences for both amplification and sequencing of the sample-library fragments. Both adapters should be reported; in uppercase letters.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/GENEPIO_0000083</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000039</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapter sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000040">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model name or number of next generation sequencing instrument</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0003739</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000040</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Next generation sequencing instrument model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000041">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time (e.g. hours of light) of the light regime in a growth experiment (e.g. 12hr light /12hr dark, 12/12, short day, long day)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000041</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Adapted from http://purl.obolibrary.org/obo/PECO_0007078&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growth day length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000042">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the biological replication during experiment design (e.g. &apos;rep1&apos;, &apos;rep2&apos;)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000042</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Similar to http://purl.obolibrary.org/obo/MS_1001809&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological replicate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000043">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific to metabolomic mass spectrometry assays. Steps performed after sample extraction (e.g. dried in a vacuum concentrator, solid phase microextraction direct injection)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000043</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS sample post-extraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000044">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific to metabolomic mass spectrometry assays. Resuspension after sample extraction (e.g. dried samples resuspended in pyridine, dried samples resuspended in acetonitrile)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000044</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS sample resuspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000045">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific to metabolomic mass spectrometry assays. Type of sample (e.g. experimental sample, pooled sample, blank, medium blank, retention index, reference standard, quality control)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000045</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS sample type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000046">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company name, and instrument name or serial number of the chromatography instrument</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000046</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“similar to http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0000048. Placeholder until there is a good ontology to pick the exact model (company and serial no) from. DB&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography instrument model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000047">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company name, and name or serial number of the chromatography autosampler model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000047</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“of type http://purl.obolibrary.org/obo/OBI_0000555. Placeholder until there is a good ontology to pick the exact model (company and serial no) from. DB&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography autosampler model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000048">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company name, and name or serial number of the chromatography column</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000048</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Placeholder until there is a good ontology to pick the exact model (company and serial no) from. DB&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography column model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000049">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company name, and name or serial number of the chromatography guard column</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000049</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“is_a http://purl.obolibrary.org/obo/OBI_0000614. Placeholder until there is a good ontology to pick the exact model (company and serial no) from. DB&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography guard column model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000050">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical buffer, solvent or solution used to extract a component from a biological sample.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000050</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“related to http://purl.obolibrary.org/obo/OBI_0302884. DB&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction buffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000051">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volume of the buffer (NFDI4PSO:0000050) used during extraction.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000051</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Has unit &apos;microliter&apos;&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction buffer volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000052">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derivatization for metabolomics mass spectrometry.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000052</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“is_a http://purl.obolibrary.org/obo/CHMO_0001485&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS derivatization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000053">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of chromatography column (NFDI4PSO:0000048)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000053</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“is_a http://purl.obolibrary.org/obo/CHMO_0001000&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography column type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000054">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method or kit that was used to extract DNA or RNA</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000054</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“More general than NFDI4PSO:0000014, because not everyone uses a kit for RNA/DNA extraction&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000055">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of source material that is being sequenced</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontobee.org/ontology/GENEPIO?iri=http://purl.obolibrary.org/obo/GENEPIO_0001965</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000055</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000056">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amount of DNA (microgram) used as starting material for library construction</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000056</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library DNA amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000057">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the company that produces next generation sequencing instruments</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontobee.org/ontology/GENEPIO?iri=http://purl.obolibrary.org/obo/GENEPIO_0000071</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000057</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Next generation sequencing platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000058">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers of base pairs per read</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontobee.org/ontology/GENEPIO?iri=http://purl.obolibrary.org/obo/GENEPIO_0000076</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000058</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000059">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy that was used to assemble reads into contigs</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontobee.org/ontology/GENEPIO?iri=http://purl.obolibrary.org/obo/GENEPIO_0000090</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000059</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Just two options should be possible: de-novo assembly or mapping&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequence assembly method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000060">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The version of the sequence assembly algorithm (OBI_0001522)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000060</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequence assembly algorithm version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000061">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of the genome sequence that is uploaded</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000061</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Just two options should be possible: full or partial&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000062">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of RNA quality after RNA extraction. Typically RNA integrity number (RIN) as provided by Agilent BioAnalyzer. Alternatively, RNA integrity checked via gel electrophoresis.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000062</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA quality check</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000063">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The accession number of the BioProject(s) to which the BioSample belongs. If the BioSample belongs to more than one BioProject, enter multiple bioproject_accession columns. A valid BioProject accession has prefix PRJN, PRJE or PRJD, e.g., PRJNA12345.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C175890</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000063</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: taken from a template at https://www.ncbi.nlm.nih.gov/biosample/]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BioProject Accession Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000064">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample type, such as cell culture, mixed culture, tissue sample, whole organism, single cell, metagenomic assembly</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C70713</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000064</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: taken from a template at https://www.ncbi.nlm.nih.gov/biosample/]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000065">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific individual microbe and its genetically identical progeny separated on a single occasion from a sample taken from a host or culture system. [Definition Source: NCI]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C53471</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000065</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000066">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cultivated plant variety selected and given a name because it has desirable characteristics that distinguish it from otherwise similar plants of the same species.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0005136</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000066</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://www.ebi.ac.uk/efo/EFO_0005136]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cultivar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000067">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotype resulting from selection in a particular habitat, e.g. the A. thaliana Ecotype Ler</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000434</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000067</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://www.ebi.ac.uk/efo/EFO_0000434]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000068">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space. [Definition Source: NCI][attribution: On-line Medical Dictionary]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C16403</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000068</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://purl.obolibrary.org/obo/NCIT_C16403]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000069">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid. [Definition Source: NCI]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C12508</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000069</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://purl.obolibrary.org/obo/NCIT_C12508]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000070">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A general term that usually refers to named landmark events during development of an organism. [Definition Source: NCI]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C43531</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000070</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://purl.obolibrary.org/obo/NCIT_C43531]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000071">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant stress caused by exposure to an environment containing a biological stress agent.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/PSO_0000013</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000071</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://purl.obolibrary.org/obo/PSO_0000013]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000072">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage of plant disease (NFDI4PSO:0000071) at the time of sampling.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000072</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant disease stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000073">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotype of sampled organism. For Phenotypic quality Ontology (PATO) (v1.269) terms, please see http://bioportal.bioontology.org/visualize/44601</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C16977</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000073</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: taken from a template at https://www.ncbi.nlm.nih.gov/biosample/]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000074">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographical origin of the sample; use the appropriate name from this list http://www.insdc.org/documents/country-qualifier-vocabulary. Use a colon to separate the country or ocean from more detailed information about the location, eg &apos;Canada: Vancouver&apos; or &apos;Germany: halfway down Zugspitze, Alps&apos;</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C16632</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000074</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: taken from a template at https://www.ncbi.nlm.nih.gov/biosample/]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geogaphic Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000075">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The date on which the sample was collected</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C81286</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000075</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample Collection Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000076">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the person, group, or institution who performed the collection act. [Definition Source: NCI]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C45262</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000076</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: http://purl.obolibrary.org/obo/NCIT_C45262&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample Collected By</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000077">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolite assignment file (MAF) as required by MetaboLights to describe metabolites analyzed during a metabolomics assay. Details see: https://www.ebi.ac.uk/metabolights/guides/MAF/Title</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000077</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: https://www.ebi.ac.uk/metabolights/guides/MAF/Title&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolite Assignment File</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_0000078">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BioSample accession as required by NCBI repositories. Typically of the form SAMN[number]. NOT SUB[number]!</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C175889</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:0000078</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“[Definition Source: taken from a template at https://www.ncbi.nlm.nih.gov/biosample/]&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BioSample Accession Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RNA-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of miRNA-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000004</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ncRNA-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncRNA-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RNA-Seq (size fractionation)</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000006</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-Seq (size fractionation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RNA-Seq (CAGE)</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000007</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-Seq (CAGE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RNA-Seq (RACE)</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000008</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-Seq (RACE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ssRNA-seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000009</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA-seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ChIP-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000010</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChIP-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MNase-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000011</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MNase-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MBD-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000012</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MBD-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MRE-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000013</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRE-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Bisulfite-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000014</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisulfite-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Bisulfite-Seq (reduced representation)</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000015</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisulfite-Seq (reduced representation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MeDIP-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000016</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeDIP-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of DNase-Hypersensitivity</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000017</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNase-Hypersensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Tn-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000018</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tn-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of FAIRE-seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000019</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAIRE-seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of SELEX</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000020</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELEX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RIP-Seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000021</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIP-Seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ATAC-seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000022</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATAC-seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ChIA-PET</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000023</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChIA-PET</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Hi-C</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000024</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hi-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of OTHER: specify</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000025</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER: specify</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of fastq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000026</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fastq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of bam</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000027</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina_native_qseq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000028</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina_native_qseq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina_native</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000029</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina_native</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of SOLiD_native_csfasta</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000030</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOLiD_native_csfasta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of SOLiD_native_qual</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000031</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOLiD_native_qual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of sff</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000032</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454_native_seq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000033</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454_native_seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454_native_qual</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000034</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454_native_qual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Helicos_native</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000035</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helicos_native</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of srf</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000036</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">srf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000021"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of PacBio_HDF5</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000037</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PacBio_HDF5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina Genome Analyzer IIx</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000038</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina Genome Analyzer IIx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 1000</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000039</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 1000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 1500</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000040</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 1500</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 2000</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000041</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 2000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 2500</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000042</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 2500</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 3000</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000043</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 3000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq 4000</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000044</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq 4000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina NextSeq 500</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000045</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina NextSeq 500</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina NextSeq 550</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000046</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina NextSeq 550</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq X Ten</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000047</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq X Ten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiSeq X Five</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000048</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiSeq X Five</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina NovaSeq 6000</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000049</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina NovaSeq 6000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina MiSeq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000050</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina MiSeq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina HiScanSQ</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000051</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina HiScanSQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina MiniSeq</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000052</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina MiniSeq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Illumina iSeq 100</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000053</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina iSeq 100</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of BGISEQ-500</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000054</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BGISEQ-500</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of DNBSEQ-G400</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000055</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNBSEQ-G400</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of DNBSEQ-T7</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000056</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNBSEQ-T7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of DNBSEQ-G50</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000057</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNBSEQ-G50</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Ion Torrent PGM</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000058</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion Torrent PGM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Ion Torrent Proton</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000059</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion Torrent Proton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Ion Torrent S5</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000060</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion Torrent S5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Ion Torrent S5 XL</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000061</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion Torrent S5 XL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of PacBio RS</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000062</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PacBio RS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of PacBio RS II</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000063</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PacBio RS II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Sequel</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000064</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Sequel II</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000065</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequel II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD System 2.0</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000066</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD System 2.0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD System 3.0</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000067</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD System 3.0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD 3 Plus System</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000068</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD 3 Plus System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD 4 System</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000069</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD 4 System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD 4hq System</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000070</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD 4hq System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB SOLiD PI System</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000071</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB SOLiD PI System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB 5500 Genetic Analyzer</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000072</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB 5500 Genetic Analyzer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB 5500xl Genetic Analyzer</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000073</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB 5500xl Genetic Analyzer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of AB 5500xl-W Genetic Analysis System</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000074</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB 5500xl-W Genetic Analysis System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000075</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS 20</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000076</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS 20</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS FLX</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000077</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS FLX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS FLX+</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000078</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS FLX+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS Junior</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000079</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS Junior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of 454 GS FLX Titanium</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000080</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">454 GS FLX Titanium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Complete Genomics</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000081</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete Genomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Helicos HeliScope</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000082</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helicos HeliScope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of GridION</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000083</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GridION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MinION</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000084</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MinION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of PromethION</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000085</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PromethION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of single</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_single or paired-end</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000086</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of paired-end</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_single or paired-end</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000087</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired-end</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of total RNA</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000088</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of polyA RNA</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000089</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyA RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of cytoplasmic RNA</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000090</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of nuclear RNA</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000091</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of genomic DNA</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000092</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genomic DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of protein</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000093</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NFDI4PSO_1000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NFDI4PSO_1000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NFDI4PSO_0000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of other</obo:IAO_0000115>
+        <obo:NFDI4PSO_1000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</obo:NFDI4PSO_1000001>
+        <obo:NFDI4PSO_1000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</obo:NFDI4PSO_1000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4NFDI4PSO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFDI4PSO:1000094</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be transformed to an instance. DB</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
